@@ -47,15 +47,15 @@ int b = 255;
       noStroke();
     
     if (keyPressed == true && key=='r') {
-        fill(R,0,0);
+        fill(R,random(0,100),random(0,100));
   }  
   
     if (keyPressed == true && key=='g') {
-        fill(0,G,0);
+        fill(random(0,100),G,random(0,100));
   }  
   
     if (keyPressed == true && key=='b') {
-        fill(0,0,B);
+        fill(random(0,100),random(0,100),B);
   }  
       
     }
